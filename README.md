@@ -10,15 +10,11 @@
 
 ## Used Stack :
 
-- #### Node.js
-- #### Express.js
-- #### Mongoose.js
-- #### Passport-Local
-- #### Jsonwebtokens
-- #### Jest
-- #### Apollo
-- #### Graphql
-- #### Typescript
+- #### React.js
+- #### Axios library
+- #### Moment
+- #### Bootsrap
+
 
 <details><summary><b>Installation Instructions</b></summary><br>
 
@@ -28,9 +24,9 @@
 
 ```
 
-$ git clone https://github.com/rizikolik/express-apollo-api.git
+$ git clone https://github.com/mslmyrtd/SmartPulse.git
 
-$ cd express-apollo-api
+$ cd SmartPulse
 
 ```
 
