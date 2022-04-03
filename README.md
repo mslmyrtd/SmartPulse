@@ -63,8 +63,8 @@ Graphql routes starts with /graphql
 
 <details><summary><b>Deployment </b></summary><br>
 
-Deployed at Heroku @ https://express-apollo-api.herokuapp.com/api <br>
-Graphql queries can be done at @ https://express-apollo-api.herokuapp.com/graphql
+Deployed at Heroku @ <br>
+Graphql queries can be done at @
 
 Check collection with Postman : <br>
 
