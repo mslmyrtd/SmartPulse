@@ -8,11 +8,21 @@ const Main = () => {
     getData();
   }, []);
   const getData = async () => {
-    const response = await axios(
-      `https://seffaflik.epias.com.tr/transparency/service/market/intra-day-trade-history?endDate=2022-01-26&startDate=2022-01-26`
-    );
+    try {
+      const response = await axios(
+        `https://seffaflik.epias.com.tr/transparency/service/market/intra-day-trade-history?endDate=2022-01-26&startDate=2022-01-26`
+      );
+      setData(
+        response.data.body.intraDayTradeHistoryList.filter((item) => {
+          return item.conract.includes("PH");
+        })
+      );
+      setIsLoading(true);
+    } catch (error) {
+      console.error(error);
+    }
   };
-
+  console.log(data);
   return <div></div>;
 };
 
