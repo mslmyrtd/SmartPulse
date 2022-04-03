@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import moment from "moment";
+import turkish from "../assets/turkish.png";
 const Main = () => {
   const [data, setData] = useState();
   const [isLoading, setIsLoading] = useState();
@@ -38,7 +39,7 @@ const Main = () => {
         <div style={{ width: "75%", marginTop: "30px" }}>
           <table className="table table-bordered table-hover">
             <thead>
-              <tr>
+              <tr style={{ backgroundColor: "blue", color: "white" }}>
                 <th scope="col">Tarih</th>
                 <th scope="col">Toplam İşlem Miktarı(MWh)</th>
                 <th scope="col">Toplam İşlem Tutarı(TL)</th>
@@ -88,7 +89,15 @@ const Main = () => {
                       :00
                     </th>
                     <td>{totalQuantity}</td>
-                    <td>{totalPrice}</td>
+                    <td>
+                      {" "}
+                      <img
+                        src={turkish}
+                        alt=""
+                        style={{ width: "10px" }}
+                      />{" "}
+                      {totalPrice}
+                    </td>
                     <td>{Math.round(totalPrice / totalQuantity)}</td>
                   </tr>
                 </tbody>
@@ -101,9 +110,7 @@ const Main = () => {
           className="spinner-grow"
           style={{ width: "5rem", height: "5rem", marginTop: "250px" }}
           role="status"
-        >
-          <span className="visually-hidden">Loading...</span>
-        </div>
+        ></div>
       )}
     </div>
   );
