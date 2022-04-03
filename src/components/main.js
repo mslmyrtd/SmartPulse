@@ -78,10 +78,12 @@ const Main = () => {
                   0
                 )
                 .toFixed(2);
+
               return (
                 <tbody key={item.id}>
                   <tr>
                     <th scope="row">
+                      {item[0].date.slice(0, 10).replaceAll("-", ".")}{" "}
                       {item[0].conract.slice(8, 10)}
                       :00
                     </th>
