@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+<h2  align="center">Express & &Apollo Server with Typescript</h2>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+ <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+ <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</p>
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+## Used Stack :
 
-### `npm start`
+- #### Node.js
+- #### Express.js
+- #### Mongoose.js
+- #### Passport-Local
+- #### Jsonwebtokens
+- #### Jest
+- #### Apollo
+- #### Graphql
+- #### Typescript
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<details><summary><b>Installation Instructions</b></summary><br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<summary>You must have the Node.js and npm  installed before this steps.For more[Node.js](https://nodejs.org/en/download/) </summary><br/>
 
-### `npm test`
+1. Clone the Repo:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
 
-### `npm run build`
+$ git clone https://github.com/rizikolik/express-apollo-api.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+$ cd express-apollo-api
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install the app with the help of `package.json`:
 
-### `npm run eject`
+```
+$ yarn install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+or with npm
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+$npm i
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Start the server :
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+$ yarn build
+$yarn start
+```
 
-## Learn More
+    with npm
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+$ npm run build
+$npm run start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Default Express.js routes are start with /api
+Graphql routes starts with /graphql
 
-### Code Splitting
+</details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<details><summary><b>Deployment </b></summary><br>
 
-### Analyzing the Bundle Size
+Deployed at Heroku @ https://express-apollo-api.herokuapp.com/api <br>
+Graphql queries can be done at @ https://express-apollo-api.herokuapp.com/graphql
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Check collection with Postman : <br>
 
-### Making a Progressive Web App
+<p  align="left">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/collections/23b635b4e7b2192c870b)
 
-### Advanced Configuration
+</p>
+</details>
+<details><summary><b>Testing </b></summary><br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+After cloning the app and installation process please run :
 
-### Deployment
+```
+$yarn test
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+</details>
 
-### `npm run build` fails to minify
+<details><summary><b>Other</b></summary><br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Authors
+
+👤 Müslüm Yurtada
+
+- Github: [https://github.com/mslmyrtd)
+
+## How to contribute ?
+
+Contributions, issues and feature requests are welcome!
+Feel free to check issues page.
+
+Fork it (https://github.com/mslmyrtd/SmartPulse/fork) <br>
+Create your working branch (git checkout -b [choose-a-name]) <br>
+Commit your changes (git commit-m "commit") <br>
+Push to the branch (git push origin [chosen-name]) <br>
+Create a new Pull Request
+
+</details>
